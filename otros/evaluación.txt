@@ -1,0 +1,80 @@
+Evaluación Ciencia de Datos Básico con Python
+
+1. ¿Cómo se define una variable en Python?
+
+a*) nombre = valor
+b) tipo nombre = valor;
+c) let nombre = valor o const nombre = valor
+
+2. ¿Cuál es la sintaxis para generar un texto que incrusta valores en Python?
+
+a*)  f"Texto {valor} más texto"
+b) "Texto \(valor) más texto"
+c) "Texto ${valor} más texto"
+
+3. ¿Cuál es la sintaxis para generar un texto con formato a dos decimales en Python?
+
+a*) "Texto {:.2f} más texto".format(valor)
+b) "Texto %.2f más texto".format(valor)
+c) "Texto {valor:.2f}"
+
+4. ¿Cómo se agrega un elemento a una lista?
+
+a*) lista.append(valor)
+b) lista.push(valor)
+c) lista.add(valor)
+
+5. ¿Cómo se genera una tupla que acople 3 valores que describen a una persona?
+
+a*) persona = ("Paco", 23, 78.5)
+b) persona = {"Paco", 23, 78.5}
+c) persona = ["Paco", 23, 78.5]
+
+6. ¿Cómo se define un diccionario que retiene los valores de una persona?
+
+a*) persona = { "nombre": "Paco", "edad": 23, "peso": 78.5 }
+b) persona = [ "nombre": "Paco", "edad": 23, "peso": 78.5 ]
+c) persona = ( "nombre": "Paco", "edad": 23, "peso": 78.5 )
+
+7. ¿Cómo se define una función que toma un texto como parámetro y devuelve los primeros 4 caracteres de ese texto?
+
+a*) def extraer(texto): return texto[:4]
+b) function extraer(texto) { return texto.slice(0,4) }
+c) func extraer(texto) -> texto.substr(0,4)
+
+8. ¿Qué describe mejor a la adquisición de datos?
+
+a*) Construir un dataset a partir de la extracción de datos desde un origen de datos
+b) Abrir un archivo de texto, CSV o Excel para cargar los datos
+c) Consultar un fuente de datos para recuperar los datos dentro de una Serie o DataFrame de pandas
+
+9. ¿Cuál es el objetivo principal de la limpieza de datos?
+
+a*) Poder eliminar valores nulos o corregirlos mediante la sustitución a un valor proyectado o corregido
+b) Poder normalizar un eje de datos para que los valores estén en un intervalo cerrado
+c) Transformar los ejes de texto a mayúsculas o minúsculas y quitar los acentos para poder usarlos como ejes categóricos
+
+10. ¿A qué se refiere la estructuración de datos y cuál es su objetivo?
+
+a*) Se refiere a transformar o dividir los ejes de datos para extraer nueva información y su objetivo es formar un dataset de análisis que pueda procesarse
+b) Se refiere a cambiar el tipo de dato de los ejes y mantener solo aquellos ejes que sean numéricos y el objetivo es poder formar una matriz numérica que sirva de modelo de procesamiento
+c) Se refiere transformar los ejes numéricos a categóricos con el objetivo de hacer análisis de Pareto y basado en clústeres
+
+11. ¿Qué es el procesamiento de datos?
+
+a*) Aplicar un modelo estadístico o de aprendizaje a los datos para formar un dataset de resultados que pueda ser visualizado o reportado
+b) Procesar los datos mediante estadísticos para encontrar la relación entre los datos
+c) Aplicar un modelo de Aprendizaje automático, mediante la construcción de una matriz de características X y un vector de entrenamiento Y.
+
+12. ¿Qué es la visualización de datos?
+
+a*) Poder explicar los datos a partir de objetos visuales como gráficas en 1D, 2D, 3D, mapas o redes. Así como interpretar los datos de la visualización asociados como las medidas de tendencia y desviación
+b) Poder graficar un conjunto de datos y sus correlaciones
+c) La capacidad de visualizar vectores o matrices como histogramas o gráficas de dispersión, así como modelos más avanzados como mapas de calor e imágenes.
+
+
+
+
+
+
+
